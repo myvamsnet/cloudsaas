@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply container mx-auto max-w-[1266px];
+}
+
+.text {
+  @apply font-medium text-base text-dark;
+}
+
+.btn {
+  @apply py-4 px-5 rounded-[0.625rem] font-medium text-base;
+}
+
+.features--lists {
+  @apply flex items-center gap-3 text-lg font-semibold leading-[1.875rem];
+}
+
+.features--position {
+  @apply flex justify-between items-center lg:flex-row flex-col px-4 gap-6;
+}
+
+.heading {
+  @apply md:text-4xl text-[2rem] md:leading-[44px] font-bold text-dark font-spaceGrotesk tracking-[-1px];
+}

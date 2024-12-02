@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+    <title>CloudAss App</title>
+  </head>
+  <body class="font-inter">
+    <header class="md:p-4 sticky top-0 bg-white z-40">
+      <nav
+        class="flex justify-between items-center container mx-auto max-w-[1286px] py-4 lg:px-0 px-4"
+      >
+        <a href="#">
+          <img
+            src="./public/assets/logo.svg"
+            alt=""
+          />
+        </a>
+
+        <div class="items-center gap-14 flex">
+          <menu class="items-center gap-14 text lg:flex hidden">
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> About </a>
+            </li>
+            <li>
+              <a href="#"> Blog </a>
+            </li>
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </menu>
+          <button class="btn bg-primary text-white lg:block hidden">
+            Get Started Free
+          </button>
+          <div class="lg:hidden block">
+            <img
+              src="./public/assets/icons/barIcon.svg"
+              alt="Menu Bar"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="lg:py-[5.625rem] py-5 wrapper flex lg:flex-row flex-col justify-between items-center px-4"
+      >
+        <div class="w-full max-w-[636px] lg:space-y-10 space-y-5">
+          <h1
+            class="font-bold font-spaceGrotesk md:text-[5rem] md:leading-[5rem] tracking-[-5px] text-dark text-[2.75rem] leading-[3rem]"
+          >
+            Advanced cloud storage service for your work
+          </h1>
+          <p
+            class="md:text-xl text-base md:leading-8 text-dark/70 w-full max-w-[526px]"
+          >
+            Using the cloud for storage gives you access files from anywhere
+            with an internet connection very easily.
+          </p>
+          <button
+            class="btn bg-primary text-white flex items-center gap-[0.625rem]"
+          >
+            Sign up for free <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="w-full">
+          <img
+            src="./public/assets/hero.svg"
+            alt="Advanced cloud storage service for your work "
+            class="md:block hidden"
+          />
+          <img
+            src="./public/assets/hero-mobile.svg"
+            alt="Advanced cloud storage service for your work "
+            class="md:hidden block"
+          />
+        </div>
+      </section>
+
+      <!-- benefit -->
+      <section
+        class="py-10 wrapper grid lg:grid-cols-3 gap-12 md:grid-cols-2 px-4 grid-cols-1"
+      >
+        <!-- One -->
+        <div class="w-full max-w-[358.01px] flex gap-4">
+          <div>
+            <img
+              src="./public/assets/high-icon.svg"
+              alt="High Performance"
+            />
+          </div>
+          <div class="space-y-3">
+            <h4 class="font-bold text-lg font-spaceGrotesk text-dark">
+              High Performance
+            </h4>
+            <p class="text opacity-70 !font-normal">
+              A high-performance workplace results from continually physical
+              environment and technology.
+            </p>
+          </div>
+        </div>
+        <!-- Two -->
+        <div class="w-full max-w-[358.01px] flex gap-4">
+          <div>
+            <img
+              src="./public/assets/it-icon.svg"
+              alt="Optimized For IT"
+            />
+          </div>
+          <div class="space-y-3">
+            <h4 class="font-bold text-lg font-spaceGrotesk text-dark">
+              Optimized For IT
+            </h4>
+            <p class="text opacity-70 !font-normal">
+              Optimization the design & system or process to make it as good as
+              possible in some sense.
+            </p>
+          </div>
+        </div>
+        <!-- Three -->
+        <div class="w-full max-w-[358.01px] flex gap-4">
+          <div>
+            <img
+              src="./public/assets/security-icon.svg"
+              alt="Built-In Security"
+            />
+          </div>
+          <div class="space-y-3">
+            <h4 class="font-bold text-lg font-spaceGrotesk text-dark">
+              Built-In Security
+            </h4>
+            <p class="text opacity-70 !font-normal">
+              Security is about the safeguarding of data, whereas privacy is
+              about the safeguarding of user.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Features  -->
+      <section class="py-24 wrapper md:space-y-[7.75rem] space-y-20">
+        <!-- Features One -->
+        <section class="features--position">
+          <div class="w-full lg:max-w-[451px] space-y-12">
+            <div class="space-y-6">
+              <h2 class="heading lg:!w-full md:w-[500px] w-full">
+                With Mixland, you decide where you store your data
+              </h2>
+              <p class="text opacity-70 lg:!w-full md:w-[500px] w-full">
+                A storage device is any type of computing hardware that is used
+                for storing, porting or an extracting data files & objects.
+                Storage devices can hold information both temporarily and
+                permanently.
+              </p>
+            </div>
+            <ul class="space-y-3">
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Secure for the organization"
+                />
+                <span>Secure for the organization</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Increase your productivity"
+                />
+                <span>Increase your productivity</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Secure for the organization"
+                />
+                <span>Control to access your data</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img
+              src="./public/assets/mixland-illustration.svg"
+              alt="mixland-illustration"
+            />
+          </div>
+        </section>
+        <!-- Features Two -->
+        <section class="features--position lg:!flex-row-reverse">
+          <div class="w-full lg:max-w-[451px] space-y-12">
+            <div class="space-y-6">
+              <h2 class="heading lg:!w-full md:w-[500px] w-full">
+                Share files as needed & collaborate with teams
+              </h2>
+              <p class="text opacity-70 lg:!w-full md:w-[500px] w-full">
+                In a team conversation or in the Files tab, select More options.
+                next to the file.Choose if you want to edit the file in teams,
+                on your desktop.
+              </p>
+            </div>
+            <ul class="space-y-3">
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Secure for the organization"
+                />
+                <span>Secure for the organization</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Increase your productivity"
+                />
+                <span>Increase your productivity</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Secure for the organization"
+                />
+                <span>Control to access your data</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img
+              src="./public/assets/share-files-illustration.svg"
+              alt="mixland-illustration"
+            />
+          </div>
+        </section>
+        <!-- Features Three -->
+        <section class="features--position">
+          <div class="w-full lg:max-w-[451px] space-y-12">
+            <div class="space-y-6">
+              <h2 class="heading lg:!w-full md:w-[500px] w-full">
+                Get your deleted files back through cloud storage easily
+              </h2>
+              <p class="text opacity-70 lg:!w-full md:w-[500px] w-full">
+                You can recover files deleted from both iCloud Drive and other
+                apps within the last 30 days, whether you deleted them on
+                Mixland however, you can't recover or restore files you
+                permanently remove.
+              </p>
+            </div>
+            <ul class="space-y-3">
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Performance optimization"
+                />
+                <span>Performance optimization</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="Feature-rich web hosting"
+                />
+                <span>Feature-rich web hosting</span>
+              </li>
+              <li class="features--lists">
+                <img
+                  src="./public/assets/start.svg"
+                  alt="On-demand support options"
+                />
+                <span>On-demand support options</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img
+              src="./public/assets/deleted-file-illustration.svg"
+              alt="mixland-illustration"
+            />
+          </div>
+        </section>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="bg-dark-100 w-full py-[3.813rem] space-y-12 p-4">
+        <h1 class="w-full max-w-[636px] mx-auto md:text-center heading">
+          Trusted by 30k+ world class companies & design teams
+        </h1>
+
+        <section
+          class="w-full max-w-[1210px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[2.75rem] gap-6"
+        >
+          <!-- One -->
+          <div
+            class="bg-white rounded-2xl p-8 flex justify-center items-center flex-col gap-[2.25rem] text-center"
+          >
+            <div>
+              <img
+                src="./public/assets/genny.svg"
+                alt="Jenny "
+              />
+            </div>
+            <p class="text-lg text-dark">
+              “I just simply love tools that make my life easier! I have
+              everything that I need in one place, and that allows our team to
+              be more organized and user-oriented."
+            </p>
+            <div class="space-y-1">
+              <h4 class="font-semibold text-base text-dark">Jenny Wilson</h4>
+              <p class="text-base text-dark-200">
+                Project Manager at Microsoft
+              </p>
+            </div>
+          </div>
+          <!-- Two -->
+          <div
+            class="bg-white rounded-2xl p-8 flex justify-center items-center flex-col gap-[2.25rem] text-center"
+          >
+            <div>
+              <img
+                src="./public/assets/fox.svg"
+                alt="Jenny "
+              />
+            </div>
+            <p class="text-lg text-dark">
+              “I really like that I can have all in one place: I can send emails
+              and text messages, I can have live chat, show pop-ups and push
+              notifications on my website and create dynamic page content”
+            </p>
+            <div class="space-y-1">
+              <h4 class="font-semibold text-base text-dark">Robert Fox</h4>
+              <p class="text-base text-dark-200">Founder at Brain.co</p>
+            </div>
+          </div>
+          <!-- Three -->
+          <div
+            class="bg-white rounded-2xl p-8 flex justify-center items-center flex-col gap-[2.25rem] text-center"
+          >
+            <div>
+              <img
+                src="./public/assets/watson.svg"
+                alt="Jenny "
+              />
+            </div>
+            <p class="text-lg text-dark">
+              “Very easy to use and set up is simple. I can easily provide live
+              support to my website visitors in real-time. It also provides many
+              integrations.”
+            </p>
+            <div class="space-y-1">
+              <h4 class="font-semibold text-base text-dark">Kristin Watson</h4>
+              <p class="text-base text-dark-200">UX Designer at Google</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="md:py-[7.75rem] py-10 md:space-y-20 space-y-8">
+        <div class="w-full max-w-[440px] mx-auto space-y-5">
+          <h1 class="w-full md:max-w-[365px] mx-auto text-center heading">
+            Trusted by thousands
+          </h1>
+          <p class="text-lg font-normal text-center text-dark/70">
+            Over 1 million users. Used by thousands of teams, companies and
+            organizations worldwide.
+          </p>
+        </div>
+        <section
+          class="w-full max-w-[1058px] mx-auto flex items-center md:gap-6 gap-3 flex-wrap justify-center"
+        >
+          <img
+            src="./public/assets/1.svg"
+            alt="1"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/2.svg"
+            alt="2"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/3.svg"
+            alt="3"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/4.svg"
+            alt="4"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/5.svg"
+            alt="5"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/6.svg"
+            alt="6"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/7.svg"
+            alt="7"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/8.svg"
+            alt="8"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+          <img
+            src="./public/assets/9.svg"
+            alt="9"
+            class="md:w-[188.28px] w-[105.17px]"
+          />
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
